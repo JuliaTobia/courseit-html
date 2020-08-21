@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="">
+        <label>
+            Nombre
+            <br>
+            <br>
+            <input type="text" name="nombre">
+        </label>
+        <br>
+        <br>
+        <label>
+            Apellido
+            <br>
+            <br>
+            <input type="text" name="apellido">
+        </label>
+        <br>
+        <br>
+        <label>
+            Edad
+            <br>
+            <br>
+            <input type="number" name="edad" min="10" max="100">
+        </label>
+        <br>
+        <br>
+        <label>
+            Nacionalidad
+            <br>
+            <br>
+            <select name="nacionalidad">
+                <option value="argentina">Argentina</option>
+                <option value="chile">Chile</option>
+                <option value="bolivia">Bolivia</option>
+                <option value="uruguay">Uruguay</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <label>
+            Tecnología
+            <br>
+            <br>
+            <input type="checkbox" name="frontend">
+            Frontend
+        <br>
+            <input type="checkbox" name="fullstack">
+            Fullstack
+        <br>
+            <input type="checkbox" name="backend">
+            Backend
+        </label>
+        <br>
+        <br>
+        <label>
+            Sos mayor de edad?
+            <br>
+            <br>
+            <input type="radio" name="edad">
+            Si
+            <br>
+            <input type="radio" name="edad">
+            No
+        </label>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
